@@ -1,0 +1,77 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ececd8; /* Cor de fundo clara */
+    color: #312c2c; * Cor do texto */
+    line-height:1.6;
+    align-items: justify;
+}
+
+p {
+    color: white;
+    background-color: rgba(104, 97, 97, 0.404);
+    font-size: medium;
+    text-align: center;
+    text-decoration: overline;
+}
+
+h1 {
+    font-family: 'Courier new', sans-serif;
+    font-size: 30px;
+}
+
+h3{
+    font-family: 'garamond', sans-serif;
+    font-size: 30px;
+}
+
+ol{
+    list-style-type: decimal;
+}
+ul{
+    list-style-type: square;
+}
+
+a{
+    color: orangered;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+a:hover{
+    color:gold;
+}
+
+img{
+    border: 2px solid rgb(175, 28, 8);
+    height: 300px;
+    width: 400px;
+    border-radius: 20%;
+    filter: sepia(100%);
+}
+
+img:hover{
+    filter: brightness(85%);
+}
+
+th{
+    border: 1px solid gold;
+    background-color: rgb(160, 157, 140);
+    color: whitesmoke;
+}
+
+td{
+    border: 1px solid gold;
+    background-color: rgb(230, 230, 18);
+    color: ;
+}
+button{
+    background-color: orangered;
+    color: white;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: gold;
+    color: black;
+}
