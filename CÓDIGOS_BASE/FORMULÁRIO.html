@@ -1,0 +1,51 @@
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+
+        <title>
+            FORMULÁRIO
+        </title>
+ 
+
+    </head>
+    <body>
+        <form>
+            <label>
+                Nome:
+            </label>
+                <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+                <p> Qual dessas é uma linguagem de programção?</p>
+                <input type="radio" id="html" name="linguagem" value="HTML"> 
+                <label>HTML</label>
+                <input type="radio" id="CSS" name="linguagem" value="CSS"> 
+                <label>CSS</label>
+                <input type="radio" id="JS" name="linguagem" value="JS"> 
+                <label>JavaScript</label>
+                <p>Quais esportes você curte?</p>
+                <input type="checkbox" id="volei" name="esportes" value="volei"> 
+                <label>Vôlei</label>
+                <input type="checkbox" id="Ciclismo" name="esportes" value="Ciclismo"> 
+                <label>Ciclismo</label>
+                <input type="checkbox" id="Futebol" name="esportes" value="Futebol"> 
+                <label>Futebol</label>
+                <input type="checkbox" id="natação" name="esportes" value="natação"> 
+                <label>Natação</label>
+                <br><br>
+                <input type="button" value="Adicionar aos favoritos">
+                <br><BR>
+                <input type="reset" value="Apagar dados">
+                
+        </form>
+        <br>
+        <form action="/autenticacao.php">
+            <label>Login: </label> <br>
+            <input type="text" id="login" name="login">
+            <br>
+            <label>Senha: </label> <br>
+            <input type="password" id="password" name="password">
+            <br><br>
+            <input type="submit" value="enviar">
+        </form>
+    </body>
+</html>
